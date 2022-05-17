@@ -1,8 +1,8 @@
 Algoritmo ejemplo
 	Leer p,q
-	suma(p,q)
+	Escribir suma(p,q)
 FinAlgoritmo
 
-SubAlgoritmo suma(a,b)
-	Escribir a+b
+SubAlgoritmo c <- suma(a,b)
+	c <- a+b
 FinSubAlgoritmo
