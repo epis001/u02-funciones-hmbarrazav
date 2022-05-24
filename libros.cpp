@@ -26,6 +26,18 @@ int main(){
         cout<<"0. Salir"<<endl;
         cout<<endl<<"Selecciona una opcion valida: ";
         cin>>op;
+        switch(op){
+            case '1':
+            break;
+            case '0':
+                cout<<"Hasta luego."<<endl;
+            break;
+            default:
+                cout<<"La opcion elegida no es valida"<<endl;
+            break;
+        }
+        cout<<endl;
+        system("pause");
     }while(op != '0');
     return 0;   
 }
